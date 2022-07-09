@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "debilina",
+  "version": "${version}",
+
+  "name": "Debilinka fr",
+  "description": "Taka picovinka idk nudim sa",
+  "authors": [
+    "Risho7"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.risho7.debilina.debilina"
+    ],
+    "client": [
+      "net.risho7.debilina.debilinaClient"
+    ]
+  },
+  "mixins": [
+    "debilina.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
