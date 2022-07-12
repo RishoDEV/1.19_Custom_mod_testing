@@ -16,11 +16,11 @@ import net.risho7.debilina.item.NovyItemGroup;
 
 public class NovyBlock {
 
-    public static final Block BLOCK_OF_SOFIA = registerBlock("block_of_sofia.json",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), NovyItemGroup.SOMARINY);
+    public static final Block BLOCK_OF_SOFIA = registerBlock("block_of_sofia",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3f)), NovyItemGroup.SOMARINY);
 
     public static final Block SOFIA_ORE = registerBlock("sofia_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(2f),
             UniformIntProvider.create(5, 9)), NovyItemGroup.SOMARINY);
 
     public static final Block BLOCK_OF_KOKOT = registerBlock("block_of_kokot",
